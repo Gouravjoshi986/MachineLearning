@@ -1,0 +1,21 @@
+machine learning is process of feeding input and output in a computer/model to get the program (relation between variables) which will convert those inputs into that output. 
+
+Machine learning is essential for scenarios where traditional programming will become cumbersome due to too many variables and too many conditions (if else ladders).
+
+Data analysis is analysing a dataset and creating graph to form relation between the quantities. 
+
+Data mining is when you thoroughly search the dataset create patterns and then create a model to predict what will a new output will result in. 
+
+
+Expert system - created with help of experts(books people etc) a code which will have all the scenarios covered and will act based on it.  ( Rule based programming ) 
+
+Machine learning - it is not rule based programming . it analyses patters and create mathematical models in order to find answers of unknown inputs. (Here you have to provide features for model)
+// efficiency stabilises after a threshold 
+
+Deep learning - it is machine learning but the algorithms are different. it is based on biological model of neurons and here you dont have to provide features. it automatically identifies them and creates a mathematical model. 
+// efficiency always grows as more data is provided. 
+
+
+
+
+
