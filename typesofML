@@ -18,3 +18,30 @@
 
 4. Reinforcement Learning - >  it has an agent and it lives in that environment and it has no training data feeded in it . It just Starts from scratch with some rules and it learns and make changes in algo to upgrade.  (Google Deepmind is an good example)
 
+
+
+// Offline machine learning or batch learning 
+//Batch Learning - > when you take your model into offline environment on your machine and then train it in batches. (Because training it on server with large amount of data will be heavy) ( The problem with this scenario is that this engine is static and doesnt constantly evolve with data. after going on server until it is updated again )
+
+// limitation - . doesnt evolves with data  
+// . availability is not at all times 
+// . new emergency data is only available after updation 
+// . if copious amount of data is there then training it is very hard 
+
+// online machine learning - > data is used to train model incrementally . 
+// data is given in small batches on server / production itself . 
+// continous inflow of new data makes it evolve with every use.  ( dynamic training )
+
+//it is used when the concept / nature of problem changes very frequently then online learning should be used 
+// when you want to make system fast and cost effective at larger scale 
+
+// libraries for online - river and vowpal rabbit 
+
+// Learning Rate - > rate at which your model will update . it should not be very fast as model will forget old data and it should not be too slow also . 
+
+
+// Out of core learning - > converting a very huge dataset into smaller dataset and we will process it in batches . 
+
+// Limitations - > tricky to use ( expectations vs reality is bad..)
+// risky to use  as bad incoming data can lead to bad adaptation. (you should also make a monitoring system )
+
