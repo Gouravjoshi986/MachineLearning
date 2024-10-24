@@ -45,3 +45,12 @@
 // Limitations - > tricky to use ( expectations vs reality is bad..)
 // risky to use  as bad incoming data can lead to bad adaptation. (you should also make a monitoring system )
 
+
+
+// Instance Based vs Model based learning 
+ Learning - > Memorizing(Instance based learning) or Generalizing(model based learning)
+
+1. Instance based learning - > (K nearest neighbours algo also works on this)
+-- it is just that algo learns all other points nature and when another data point comes it checks all neighbours and ouput the majority.   (Training data is always needed for prediction)
+
+2. Model Based - trains on the data and find a mathematical relation ship / decision boundary and shows output based on that function (Only decision function is needed)
