@@ -1,2 +1,20 @@
 // Types of ML : 
-1. supervised ml - when both input and ouptut are given 
+1. supervised ml - when both input and ouptut are given in training and your model predicts ouput of test inputs after finding patterns. 
+
+// types - > Regression and Classification 
+1. Regression - > if the output is numerical then the model is regression 
+2. classification -> if the output needed is non numerical(Categorical) then it is classifiation 
+
+2. Unsupervised ml - when we only have some data and we no input output relation then we find relations between these inputs and connect them or process them in some ways that is unsupervised ml . 
+// types - > 1. Clustering  2. Dimensionality Reduction  3. Anomaly Detection  
+
+
+1. Clustering - >we plot the data in space and cluster similar type of data together to find relationships 
+2. Dimensionality reduction - > we combine two similar type of features and reduce them into one. this allows us to reduce the dimensions / no of features that our model has to take care of .   --> PCA is one of its type 
+3. Anomaly detection  ->  we train a model and find the range of reasonable working conditions / points . then when an outlier input comes we detect it as it doesnt comes in our set so we flag it as an anomaly . 
+4. Association Rule based learning - > we will mine the data and draw conclusions when about associations between two input / items .
+
+3. Semisupervised Learning - > Labelling of data is difficult so this type of ml model uses human effort to label only 2 or 3 data points and automatically labels rest of the similar points . 
+
+4. Reinforcement Learning - >  it has an agent and it lives in that environment and it has no training data feeded in it . It just Starts from scratch with some rules and it learns and make changes in algo to upgrade.  (Google Deepmind is an good example)
+
