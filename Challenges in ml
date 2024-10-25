@@ -1,0 +1,22 @@
+Challenges faced while doing ml - > 
+1. Data Collection     --> Api or Web Scraping 
+2. Insufficient Data/Labelled Data  ->if you have very huge amount of data . algo doesnt matter much (unreasonable effectiveness of data)
+
+3. Non Representive Data / Incomplete data  -> due to this wrong function is calculated [There can be Sampling Biases]
+4. Poor Quality Data - > outliers / missing values / Too much Computation 
+5. Irrelevant Features - > garbage in - garbage out 
+6. Overfitting - An overfit model performs well on training data but not on new data. This is because the model memorizes the training data instead of generalizing to all types of data. 
+The training data is too small 
+The training data contains a lot of irrelevant information 
+The model trains for too long on a single data set
+7. Underfitting - Underfitting can cause a model to perform poorly on training data and generalize poorly to unseen data. It can happen when a model is too simple, or when there's not enough or the wrong type of data. For example, a linear regression model trained on a dataset with a polynomial relationship between the input and output variables will underfit.
+// a machine learning problem that occurs when a model is unable to capture the relationship between input and output variables in a dataset 
+8. Software Integration is complex as not every software supports it 
+9. Offline Learning and Deployment as well as Cost Included with it
+
+
+Applications : 
+1. Retail store - To decide product placement // To collect data about users and sell it to marketing industry 
+2. Banking - For giving loan ml is used to predict if you will pay loan or not 
+3. Transpot -  Surge Pricing Scenario in Ola/Uber / Demand Forecasting 
+4. Manufacturing - Predictive maintainence

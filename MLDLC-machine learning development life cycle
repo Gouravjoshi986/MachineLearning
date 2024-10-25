@@ -1,0 +1,33 @@
+1. Frame the problem 
+Get mental idea of what is the problem (supervised/unsupervised/online/offline/instance/model)
+// how it will run end to end . which algo will be use
+
+2. Gathering Data - CSV/API/JSON/Web-Scraping/data-warehouse(ETL-extract transform load/etc)
+3. Data PreProcessing - structure issue / missing data / outlier / incomplete / duplicates
+    scale of data(standardization)
+4. Exploratory Data Analysis (EDA) - you should just extract analysis of data /do visualization / univariate / bivariate / multivariate analysis 
+5. Feature Engineering and Selection 
+6. Model Training Evaluation and Selection - do multiple algo testing to finally decide which performs best . then we evaluate it using accuracy score / mean squarred error etc 
+then we do hyperparameter tuning and ensemble learning (joining models)
+7. Model deployment 
+8. Testing 
+9. Optimize - backup(model/data for rollback) , load balancing , retraining time to avoid rotting
+
+..// Data Engineer 
+the person who collects data and bring it to table
+- scrape data - building data warehouses - building data pipelines and api to fetch data 
+OLTP(online transaction processing) ---> OLAP (online analytical processing)
+// skills   dsa / dbms /big data tools(apache kafka hadoop)/ cloud/distributed system / data pipelines 
+
+..// Data Analyst 
+-cleaning and organizing raw data 
+- analyzing to create insights and reports and visualizations
+-- creating and analytical thinking / statistical programming / excel / sql / data mining cleaning 
+
+..// Data Scientist 
+-- person better at statistics than any engineer  and better at engineering than any statistician  
+-- full stack guy  -- does predictive modelling and creates models 
+
+..// ML Engineer 
+-- deploying models to production ready environment 
+-- scaling and retraining / backup / monitoring etc 
