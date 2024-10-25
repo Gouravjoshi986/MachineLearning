@@ -1,0 +1,27 @@
+It is a data structure and is used everywhere in ml and dl. 
+it is a CONTAINER where you store numbers(most cases) or strings etc. 
+
+// O D Tensor --> Scalars 
+a tensor with 0 dimension - a single number is called a scalar 
+// you can use name.ndim function of numpy to get dimension. 
+
+// 1 D Tensor --> vector -->a list of number 
+it has one dimension and one axis    ( axis == dimension  and generally no of axis = rank = dimension )
+array is also called vector    . eg vector = [1,2,3,4] this is a 1D tensor . but we can call it a 4D Vector also . (no of elements)
+
+// 2 D Tensors ---> matrices   (Collection of vector)
+// axis = 2 rank = 2 dimension = 2
+
+// N D Tensors ----> Collection of n-1 d tensor 
+// Shape of a tensor - (no of row,no of column) 
+// size of tensor = no of row * no of column 
+
+// A single row of a table is a 1d tensor - vector 
+// the table / matrix is a 2d tensor 
+
+eg of 3d tensors = NLP problem of speech conversion  eg HI A 
+                                                        HI B
+                                                        HI C    
+            suppose HI = 1000  A= 0100  B = 0010   C = 0001 
+            so this transforms to    [ [[1000][0100]]  [[1000][0010]] [[1000][0001]] ] 
+            this is a 3d tensor  w 
