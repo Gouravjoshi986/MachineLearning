@@ -1,0 +1,17 @@
+// 1. direct access = using pd.read_json('relative directory')
+
+// to use url on web = pd.read_json('url of json file') 
+
+// it also has other functions . check docs 
+
+
+// to work with sql data -> run that on any database mysql or postgress (you can use XAMPP for mysql just start apache and mysql and go to local host/phpmyadmin create a db and load the dataset)
+
+// now you need to install a library 
+// !pip install mysql.connector
+// obj = mysql.connector.connect(host='localhost',user='root',passwor'',database='db name')
+
+// pd.read_sql_query("sql querry",obj)
+// SQL querry = "SELECT * FROM CITY"
+
+// use gpt and docs for other functionalities that pandas provide 
