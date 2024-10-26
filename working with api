@@ -1,0 +1,26 @@
+API - application programming interface 
+// eg. TMDB Api (movie api)
+// you can use json viewer to see json in visual way 
+we write a python code to hit the api 
+
+import pandas as pd 
+import requests 
+
+res = requests.get('url of api') 
+lis = res.json()['results'] // to convert res into json and access the results key value pair 
+now df = pd.DataFrame(lis )
+
+// this data frame is for one page . 
+If the api has many pages of data we will do this in an loop and append new frames to out frame 
+
+dfOrg = pd.DataFrame()  --> empty data frame 
+for i in range(1,n):
+    res = requests.get(`url part/${i}`).json()['result]
+    df = pd.DataFrame(res)
+    dfOrg.append(df,ignore_index=true)
+    // ignore_index is used to prevent the repeated indexing 
+
+
+// now we can export this as csv for further easy use 
+df.to_csv('name.csv')
+ 
