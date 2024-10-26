@@ -1,0 +1,30 @@
+// while working with csv there are multiple parameters that you can use to make your life easy 
+1. opening a local file   pd.read_csv('relative directory')
+
+2. opening through url 
+import requests
+from io import StringIO
+url = 'your url'
+headers = {"user-agent"://}
+req  = requests.get(url,headers-headers)
+data = StringIO(req.text)
+pd.read_csv(data)
+
+3. Sep parameter - we can pass sep and add a different seperator   -- pd.read_csv('',sep='\t')
+4. Passing name to column -pd.read_csv('',names=['col1','col2'])
+5. to make 0th row as header and start data from 1st   pd.read_csv('',header=1)
+6. to use specific columns - pd.read_csv('',usecols=['col1','col2'..])
+7. use skiprows=[0,1,2] to skip these rows 
+8. use nrows=100 to only show 100 rows of data 
+9. to change encoding - pd.read_csv('',encoding='latin-1')  // or other encoding name
+10. skip bad lines = pd.read_csv('',error_bad_lines=false) --> to skip bad lines in data 
+11. dtype parameter - to change data type - pd.read_csv('',dtype={'col name':data type})
+12. handling dates- to handle date as date object rather than string - pd.read_csv('',parse_dates=['col name'])   --/ read about this for more details
+13. convertors : to use a function on any column 
+- pd.read_csv('',converters={'col name':function name}) .   and define function above 
+14. na_values parameter - to assign some value as NaN - pd.read_csv('',na_values=['value you want to consider nan',''..])
+15. Loading a huge dataset as chunks - 
+   dataFrame = pd.read_csv('',chunksize=5000)
+now to access these:   for chunks in dataFrame:
+                        // do operation 
+
